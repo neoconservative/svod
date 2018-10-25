@@ -1,0 +1,196 @@
+
+header {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.navbar-brand {
+    height: auto;
+    padding: 0px 15px;
+    text-align: right;
+
+}
+
+.navbar-default {
+    font-family: georgia, serif;
+    /*background-color: #0c74ff;*/
+    background-color: #264796; /*#007342;*/
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page-heading {
+    background-color: rgb(250, 250, 250);
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: repeat-x;
+    background-attachment: scroll;
+    background-size: auto auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+}
+.top-panel  {
+    border-bottom: solid 1px #e6e6e6;
+    background-color: #E6E6FA;
+    min-height: 69px;
+    color: #007342;
+    font-family: georgia, serif;
+    font-size: 20px;
+}
+.top-contact {
+text-align: right;
+padding-top: 40px; 
+}
+
+
+.top-info li {
+    display: inline-block;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    font-size: 90%;
+    white-space: nowrap;
+}
+.top-info a {
+      color: #1E90FF;
+}
+.top-centr {
+    background-image: url("images/4.jpg ");
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed; */
+    background-size: cover;
+    background-color: #ffffff;
+    min-height: 710px;
+    position: relative;
+}
+
+.blog {
+    margin-top: 70px;
+}
+
+
+
+.centr-title h2 {
+    text-align: center;
+    color: #000000;
+    margin-top: 60px;
+    font-size: 50px;
+}
+.centrTitleInfo {
+
+
+}
+.bannerButton {
+
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    margin-top: 90px;
+
+
+}
+a.buttons {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: .5em 2em;
+    outline: none;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #559bfd #000 #0f9ed7;
+    border-radius: 6px;
+    background: linear-gradient(#1f5af5, #6dd4f5) #4ab8f5;
+    transition: 0.2s;
+}
+a.buttons:hover
+{ background: linear-gradient(#153cf5, #198ff5) #26a2f5; }
+a.buttons:active
+{ background: linear-gradient(#3d12f5, #737ef5) #1915f5; }
+
+.advantages-section {
+    border-bottom: solid 1px #e6e6e6;
+    padding: 75px 0;
+}
+
+.inner-text {
+    padding-top: 32px;
+    color: #000000;
+}
+.inner-text p {
+    font-size: 24px;
+    /*text-align: justify;*/
+
+
+}
+.advantages-section {
+    background-image: url(images/12.jpg);
+    background-attachment: fixed;
+    min-height: 1300px;
+}
+
+.advantages-section .img-responsive {
+    height: auto;
+    width: 188px;
+    margin-top: 130px;
+}
+.who {
+    background-image: url("images/16.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed; */
+    background-size: cover;
+    background-color: #ffffff;
+    min-height: 710px;
+    position: relative;
+}
+
+.effect-section {
+    background-image: url("images/15.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #ffffff;
+    min-height: 710px;
+    position: relative;
+}
+.shema {
+    background-image: url("images/16.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed; */
+    background-size: cover;
+    background-color: #ffffff;
+    min-height: 710px;
+    position: relative;
+}
+.redText h2 {
+    font-size: 55px;
+    font-weight: bold;
+    color: #b14f7c;
+}
+.redText h1 {
+    font-size: 75px;
+    font-weight: bold;
+    color: #b14f7c;
+}
+.middle {
+    text-align: center;
+
+}
