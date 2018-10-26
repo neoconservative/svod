@@ -4,34 +4,21 @@ header {
     width: 100%;
     position: relative;
 }
+.nvb {
+    margin-bottom: -20px;
+}
 
 .navbar-brand {
     height: auto;
     padding: 0px 15px;
     text-align: right;
-
 }
-
-.navbar-default {
+.navbar-inst {
     font-family: georgia, serif;
     /*background-color: #0c74ff;*/
-    background-color: #264796; /*#007342;*/
-    font-size: 16px;
+    background-color: #E6E6FA; /*#007342;*/
+    font-size: 14px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .page-heading {
     background-color: rgb(250, 250, 250);
     background-position-x: center;
@@ -52,7 +39,7 @@ header {
 }
 .top-contact {
 text-align: right;
-padding-top: 40px; 
+padding-top: 32px;
 }
 
 
@@ -69,40 +56,46 @@ padding-top: 40px;
       color: #1E90FF;
 }
 .top-centr {
-    background-image: url("images/4.jpg ");
+    background-image: url("images/4-1.jpg ");
     background-position: center center;
     background-repeat: no-repeat;
     /*background-attachment: fixed; */
     background-size: cover;
     background-color: #ffffff;
-    min-height: 710px;
+    min-height: 530px;
     position: relative;
 }
 
 .blog {
-    margin-top: 70px;
+    margin-top: 25px;
 }
 
 
 
 .centr-title h2 {
     text-align: center;
-    color: #000000;
-    margin-top: 60px;
-    font-size: 50px;
+    color: #186f7d;
+    padding-top: 18px;
+    font-size: 40px;
+    font-family: "a_AntiqueTitulGr";
 }
-.centrTitleInfo {
+.centrTitleInfo h3 {
+    font-family: "Tahoma";
+    color: #4f565f;
+    padding-left: 47px;
+    line-height: 37px;
+}
+.centrTitleInfoBlue {
+      color: #264796;
+}
 
 
-}
 .bannerButton {
 
     text-align: center;
     position: absolute;
     width: 100%;
-    margin-top: 90px;
-
-
+    margin-top: 130px;
 }
 a.buttons {
     display: inline-block;
@@ -123,32 +116,53 @@ a.buttons:hover
 a.buttons:active
 { background: linear-gradient(#3d12f5, #737ef5) #1915f5; }
 
-.advantages-section {
-    border-bottom: solid 1px #e6e6e6;
-    padding: 75px 0;
+.whoNeedThat-section {
+    background-color: #c9e3fa;
+    min-height: 710px;
+    position: relative;
 }
-
-.inner-text {
-    padding-top: 32px;
-    color: #000000;
+.whoNeedThat-section ul {
+    list-style-image: url("images/galka.png");
 }
-.inner-text p {
-    font-size: 24px;
-    /*text-align: justify;*/
-
-
+.whoNeedThat-section li {
+    padding-top: 13px;
 }
-.advantages-section {
-    background-image: url(images/12.jpg);
-    background-attachment: fixed;
-    min-height: 1300px;
+.whoNeedThat {
+    padding-top: 25px;
 }
-
-.advantages-section .img-responsive {
+.whoNeedThat-section .img-responsive {
     height: auto;
     width: 188px;
-    margin-top: 130px;
+    margin-top: 50px;
 }
+.whom {
+    font-size: 26px;
+    color: #4f565f;
+    text-align: right;
+}
+.whomList {
+    font-size: 20px;
+    color: #4f565f;
+}
+.whoThat {
+    text-align: center;
+    font-size: 26px;
+    color: #4f565f;
+    margin-top: 20px;
+}
+.whoList ul {
+    list-style-image: url("images/galka2.png");
+}
+.whoList li {
+    font-size: 20px;
+    color: #4f565f;
+}
+
+
+
+
+
+
 .who {
     background-image: url("images/16.jpg");
     background-position: center center;
@@ -160,16 +174,6 @@ a.buttons:active
     position: relative;
 }
 
-.effect-section {
-    background-image: url("images/15.png");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: #ffffff;
-    min-height: 710px;
-    position: relative;
-}
 .shema {
     background-image: url("images/16.jpg");
     background-position: center center;
@@ -180,17 +184,200 @@ a.buttons:active
     min-height: 710px;
     position: relative;
 }
+.shemaTop {
+    text-align: center;
+    font-size: 26px;
+    color: #4f565f;
+    font-family: "Tahoma";
+    margin-top: 24px;
+}
+.redText {
+    padding-top: 0px;
+}
 .redText h2 {
-    font-size: 55px;
+    font-size: 60px;
     font-weight: bold;
     color: #b14f7c;
 }
-.redText h1 {
-    font-size: 75px;
-    font-weight: bold;
+.redText b {
+    font-size: 95px;
     color: #b14f7c;
+    font-weight: bolder;
+}
+.right {
+    text-align: right;
+}
+.left {
+    text-align: left;
 }
 .middle {
     text-align: center;
-
+    margin-top: 145px;
 }
+.underRedText h3{
+    color: #90908f;
+    font-size: 22px;
+}
+.textKomp {
+    font-size: 24px;
+    color: #000000;
+    font-weight: bold;
+}
+.redTextbottom {
+    margin-top: 160px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.effect-section {
+    background-image: url(../images/17-1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: /*fixed;*/ scroll;
+    background-size: cover;
+    /*background-color: #ffffff;*/
+    min-height: 910px;
+    position: relative;
+}
+
+.effect {
+    text-align: center;
+}
+
+.effectTop {
+    font-size: 40px;
+    color: #21a3dc;
+}
+.effect {
+    font-size: 40px;
+    color: #b14f7c;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.effectText {
+    line-height: 22px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact-section {
+    background-color: #444444;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    min-height: 700px;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: "a_AntiqueTitulGr";
+    src: url("fonts/a_AntiqueTitulGr.TTF") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+@font-face {
+    font-family: "Tahoma";
+    src: url("fonts/Tahoma.ttf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
