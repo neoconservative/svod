@@ -53,7 +53,7 @@ padding-top: 32px;
     white-space: nowrap;
 }
 .top-info a {
-      color: #1E90FF;
+      color: #264796;
 }
 .top-centr {
     background-image: url("images/4-1.jpg ");
@@ -74,10 +74,10 @@ padding-top: 32px;
 
 .centr-title h2 {
     text-align: center;
-    color: #186f7d;
-    padding-top: 18px;
-    font-size: 40px;
-    font-family: "a_AntiqueTitulGr";
+    color: #4f565f;
+    padding-top: 0px;
+    font-size: 50px;
+    font-family: "Tahoma";
 }
 .centrTitleInfo h3 {
     font-family: "Tahoma";
@@ -88,7 +88,6 @@ padding-top: 32px;
 .centrTitleInfoBlue {
       color: #264796;
 }
-
 
 .bannerButton {
 
@@ -112,7 +111,7 @@ a.buttons {
     transition: 0.2s;
 }
 a.buttons:hover
-{ background: linear-gradient(#153cf5, #198ff5) #26a2f5; }
+{ background: linear-gradient(#264796, #198ff5) #21a3dc; }
 a.buttons:active
 { background: linear-gradient(#3d12f5, #737ef5) #1915f5; }
 
@@ -220,7 +219,7 @@ a.buttons:active
 }
 .textKomp {
     font-size: 24px;
-    color: #000000;
+    color: #4f565f;
     font-weight: bold;
 }
 .redTextbottom {
@@ -248,7 +247,7 @@ a.buttons:active
 
 
 .effect-section {
-    background-image: url(../images/17-1.png);
+    background-image: url(images/17-1.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: /*fixed;*/ scroll;
@@ -307,6 +306,46 @@ a.buttons:active
     min-height: 700px;
     position: relative;
 }
+
+
+/* Back to top button */
+#back-to-top{
+    position:fixed;
+    z-index: 999;
+    display:none;
+    bottom:70px;
+    right:15px;
+    cursor:pointer;
+}
+#back-to-top i{
+    width: 50px;
+    height: 50px;
+    display:block;
+    color: #fff;
+    background: #21a3dc ;
+    text-align:center;
+    font-size:16px;
+    line-height: 50px;
+    border-radius: 5px;
+    -webkit-transition:  .3s all;
+    -moz-transition:  .3s all;
+    -ms-transition:  .3s all;
+    -o-transition:  .3s all;
+    transition:  .3s all;
+}
+#back-to-top i:hover{background:#333;}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

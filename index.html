@@ -6,9 +6,10 @@
 		<title></title>
 		<!-- Bootstrap -->
 		<link href="css/bootstrap.css" rel="stylesheet" media="screen">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 
-          <link href="style.css" rel="stylesheet" type="text/css">
-	</head>
+    </head>
 	<body>
 		
 
@@ -368,17 +369,21 @@
     <div class="container">
 
         <div class="row">
-            <div class="col-md-6">
-                <div class="col-md-8 col-md-offset-4">
+            <div class="col-md-12">
                     <div class="inner-text">
-
-
+						<ul class="top-info">
+							<li class="top-phone">
+								<span class="glyphicon glyphicon-earphone" aria-hidden="true">
+								</span>
+								<a href="tel: +73812717609">+7 (3812) 717-609</a>
+							</li>
+							<li class="top-mail">
+								<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+								<a href="mailto:omsk@keysystems.ru">omsk@keysystems.ru</a>
+							</li>
+						</ul>
 
                     </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-
             </div>
         </div>
     </div>
@@ -393,118 +398,9 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- contact section -->
-<footer id="menu-contactt" class="contactt-section">
-	<div class="container-fluid">
-		<div class="row">
-
-			<!-- map -->
-			<div class="col-md-4 col-sm-12">
-
-				<div class="border-right" style='overflow:hidden;height:500px;margin-left: -15px'>
-
-					<div id='gmap_canvas' style='height:500px;'></div>
-					<div>
-						<small><a href="http://www.embedgooglemaps.com">Вставить Google Maps</a></small>
-					</div>
-
-				</div>
-
-			</div>
-			<!-- /.map -->
-
-			<!-- address -->
-			<div class="col-md-4 col-sm-6">
-				<div class="border-right padding-y address-wrap">
-					<address class="col-md-offset-2">
-						<span class="icon-mail"></span>
-						<span>info@betelgeuseprojects.co.uk</span>
-					</address>
-					<address class="col-md-offset-2">
-						<span class="contact-icon glyphicon glyphicon-earphone"></span>
-						<span>020 3393 31 56</span> <br>
-					</address>
-					<address class="col-md-offset-2">
-						<span class="icon-address"></span>
-
-						<span>Pacific House 382,</span><br>
-						<span style="margin-left: 30px;">Kenton Road Harrow</span><br>
-						<span style="margin-left: 30px;">Middlesex, HA3 8DP</span><br>
-					</address>
-				</div>
-			</div>
-			<!-- /.address -->
-
-			<!-- send email -->
-			<div class="col-md-4 col-sm-6">
-				<div class="email-wrap">
-
-					<h4 class="text-center">Send email to Betelgeuse projects</h4>
-
-					<form class="contact-form" method="post" id="form">
-
-						<div class="col-md-10 col-md-offset-1">
-							<input type="email" class="form-control" id="email" placeholder="Your Email"
-							>
-						</div>
-
-
-						<div class="col-md-10 col-md-offset-1">
-                                <textarea class="form-control" rows="5" placeholder="Message" id="message"
-								></textarea>
-						</div>
-
-
-						<div class="col-md-10 col-md-offset-1">
-							<button type="submit" class="btn btn-default col-sm-12" id="submit" onclick="sendmail()">Send
-							</button>
-
-						</div>
-					</form>
-				</div>
-			</div>
-			<!-- /.send email -->
-
-		</div>
-	</div>
-
-</footer>
-<!-- /.contact section -->
-
-
+<div id="back-to-top">
+	<i class="glyphicon glyphicon-chevron-up"></i>
 </div>
-<!-- /.content -->
-
-
-
 
 
 
@@ -512,5 +408,7 @@
 		<script src="https://code.jquery.com/jquery.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/buttonup.js"></script>
+
 	</body>
 </html>

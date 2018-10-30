@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52de2c90-5ff3-425e-8fb6-43a9f45b1f10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/15.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -65,43 +62,52 @@
     <session id="-895445068">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="50" />
+          <entry key="project.closed" value="62" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="5" />
           <entry key="project.open.time.19" value="7" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.20" value="4" />
+          <entry key="project.open.time.20" value="5" />
           <entry key="project.open.time.21" value="4" />
-          <entry key="project.open.time.22" value="9" />
-          <entry key="project.open.time.23" value="4" />
+          <entry key="project.open.time.22" value="12" />
+          <entry key="project.open.time.23" value="5" />
           <entry key="project.open.time.24" value="6" />
           <entry key="project.open.time.25" value="6" />
+          <entry key="project.open.time.26" value="3" />
           <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.53" value="1" />
+          <entry key="project.open.time.54" value="1" />
           <entry key="project.open.time.56" value="1" />
-          <entry key="project.opened" value="51" />
+          <entry key="project.open.time.62" value="1" />
+          <entry key="project.opened" value="63" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="1356" />
-          <entry key="html" value="1700" />
+          <entry key="css" value="1409" />
+          <entry key="html" value="1788" />
+          <entry key="js" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="1356" />
-          <entry key="HTML" value="1700" />
+          <entry key="CSS" value="1409" />
+          <entry key="HTML" value="1788" />
+          <entry key="JavaScript" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
+          <entry key="js" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="JavaScript" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -114,8 +120,17 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="245" lean-forward="true" selection-start-line="245" selection-end-line="245" />
+                <state relative-caret-position="296">
+                  <caret line="384" selection-start-line="384" selection-end-line="384" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/buttonup.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="285">
+                  <caret line="19" selection-start-line="19" selection-end-line="19" />
                 </state>
               </provider>
             </entry>
@@ -127,8 +142,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="386">
-                  <caret line="260" column="9" lean-forward="true" selection-start-line="260" selection-start-column="9" selection-end-line="260" selection-end-column="9" />
+                <state relative-caret-position="390">
+                  <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -144,8 +159,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/buttonup.js" />
         <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -173,19 +189,24 @@
               <item name="svod" type="b2602c69:ProjectViewProjectNode" />
               <item name="svod" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="svod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svod" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540547805598" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540790414248" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -285,18 +306,29 @@
       <workItem from="1540548218507" duration="1374000" />
       <workItem from="1540550238175" duration="1753000" />
       <workItem from="1540552062931" duration="1724000" />
-      <workItem from="1540553942097" duration="1145000" />
+      <workItem from="1540553942097" duration="1583000" />
+      <workItem from="1540768526851" duration="1316000" />
+      <workItem from="1540770265747" duration="599000" />
+      <workItem from="1540776093061" duration="599000" />
+      <workItem from="1540778178811" duration="599000" />
+      <workItem from="1540781331166" duration="1151000" />
+      <workItem from="1540783141500" duration="1766000" />
+      <workItem from="1540784974079" duration="1766000" />
+      <workItem from="1540786795393" duration="1613000" />
+      <workItem from="1540788609995" duration="1051000" />
+      <workItem from="1540790472666" duration="1801000" />
+      <workItem from="1540792326190" duration="1143000" />
+      <workItem from="1540867306379" duration="494000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107184000" />
+    <option name="totallyTimeSpent" value="121289000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1306" y="23" width="1254" height="844" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12852405" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15671642" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -311,7 +343,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32850778" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32587412" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -342,15 +374,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="245" lean-forward="true" selection-start-line="245" selection-end-line="245" />
+        <state relative-caret-position="296">
+          <caret line="384" selection-start-line="384" selection-end-line="384" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/buttonup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="260" column="9" lean-forward="true" selection-start-line="260" selection-start-column="9" selection-end-line="260" selection-end-column="9" />
+        <state relative-caret-position="390">
+          <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
         </state>
       </provider>
     </entry>
