@@ -4,23 +4,37 @@ header {
     width: 100%;
     position: relative;
 }
-.nvb {
-    margin-bottom: -20px;
+.headBlack {
+    background-color: #000000;
+
+}
+
+
+
+.navbarCustom {
+    margin-bottom: 0px;
 }
 
 .navbar-brand {
     height: auto;
     padding: 0px 15px;
-    text-align: right;
+
 }
 .navbar-inst {
     font-family: georgia, serif;
     /*background-color: #0c74ff;*/
-    background-color: #E6E6FA; /*#007342;*/
+    background-color: #FDFDFD; /*#007342;*/
     font-size: 14px;
+    border-color: #FDFDFD;
 }
+.navbar-nav a {
+    color: #4f565f;
+}
+
+
+
 .page-heading {
-    background-color: rgb(250, 250, 250);
+    background-color: rgb(253, 253, 253);
     background-position-x: center;
     background-position-y: center;
     background-repeat: repeat-x;
@@ -30,8 +44,8 @@ header {
     background-clip: border-box;
 }
 .top-panel  {
-    border-bottom: solid 1px #e6e6e6;
-    background-color: #E6E6FA;
+    border-bottom: solid 1px #fdfdfd;
+    background-color: #fdfdfd;
     min-height: 69px;
     color: #007342;
     font-family: georgia, serif;
@@ -39,7 +53,7 @@ header {
 }
 .top-contact {
 text-align: right;
-padding-top: 32px;
+padding-top: 8px;
 }
 
 
@@ -49,12 +63,25 @@ padding-top: 32px;
     margin-right: 10px;
     margin-bottom: 0px;
     margin-left: 10px;
-    font-size: 90%;
+    font-size: 15px;
     white-space: nowrap;
 }
 .top-info a {
-      color: #264796;
+      color: #c8c8c8;
 }
+
+.top-info .glyphicon {
+    color: #c8c8c8;
+    top: 3px;
+}
+
+
+
+
+
+
+
+
 .top-centr {
     background-image: url("images/4-1.jpg ");
     background-position: center center;
@@ -116,7 +143,7 @@ a.buttons:active
 { background: linear-gradient(#3d12f5, #737ef5) #1915f5; }
 
 .whoNeedThat-section {
-    background-color: #c9e3fa;
+    background-color: #FEFEFE;
     min-height: 710px;
     position: relative;
 }
@@ -255,6 +282,7 @@ a.buttons:active
     /*background-color: #ffffff;*/
     min-height: 910px;
     position: relative;
+
 }
 
 .effect {
@@ -263,7 +291,7 @@ a.buttons:active
 
 .effectTop {
     font-size: 40px;
-    color: #21a3dc;
+    color: #264796;
 }
 .effect {
     font-size: 40px;
@@ -297,17 +325,6 @@ a.buttons:active
 
 
 
-.contact-section {
-    background-color: #444444;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-    min-height: 700px;
-    position: relative;
-}
-
-
 /* Back to top button */
 #back-to-top{
     position:fixed;
@@ -318,14 +335,14 @@ a.buttons:active
     cursor:pointer;
 }
 #back-to-top i{
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    height: 35px;
     display:block;
     color: #fff;
-    background: #21a3dc ;
+    background: #264796;
     text-align:center;
     font-size:16px;
-    line-height: 50px;
+    line-height: 35px;
     border-radius: 5px;
     -webkit-transition:  .3s all;
     -moz-transition:  .3s all;
@@ -336,14 +353,73 @@ a.buttons:active
 #back-to-top i:hover{background:#333;}
 
 
+.bannerButton2 {
+
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    margin-top: 17px;
+}
 
 
 
+.contact-section {
+    background-color: #fdfdfd;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    min-height: 400px;
+    position: relative;
+}
+.contactSectionMiddle {
+    text-align: center;
+    color: #4f565f;
+
+}
+
+.panel {
+    border: #fdfdfd;
+}
+.panel-group {
+
+
+}
+.panel-title {
+    font-size: 18px;
+    color: #4f565f;
+    margin-left: 185px;
+}
 
 
 
+.bottom-contact {
+    /*text-align: right;*/
+    padding-top: 17px;
+    text-align: left;
+}
 
 
+.bottom-info li {
+    /*display: inline-block;*/
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 25px;
+    margin-left: 37px;
+    font-size: 18px;
+    white-space: nowrap;
+    list-style-type: none;
+}
+.bottom-info a {
+    color: #4f565f;
+}
+.glyphicon-earphone, .glyphicon-envelope, .glyphicon-paperclip {
+    color: #264796;
+    top: 4px;
+}
+.map {
+    margin-top: 20px;
+}
 
 
 

@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="52de2c90-5ff3-425e-8fb6-43a9f45b1f10" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/17-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/17-1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/buttonup.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/buttonup.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,41 +64,44 @@
     <session id="-895445068">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="62" />
+          <entry key="project.closed" value="95" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="5" />
-          <entry key="project.open.time.19" value="7" />
+          <entry key="project.open.time.19" value="9" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.20" value="5" />
-          <entry key="project.open.time.21" value="4" />
-          <entry key="project.open.time.22" value="12" />
-          <entry key="project.open.time.23" value="5" />
-          <entry key="project.open.time.24" value="6" />
-          <entry key="project.open.time.25" value="6" />
-          <entry key="project.open.time.26" value="3" />
+          <entry key="project.open.time.20" value="7" />
+          <entry key="project.open.time.21" value="8" />
+          <entry key="project.open.time.22" value="16" />
+          <entry key="project.open.time.23" value="11" />
+          <entry key="project.open.time.24" value="11" />
+          <entry key="project.open.time.25" value="7" />
+          <entry key="project.open.time.26" value="5" />
+          <entry key="project.open.time.27" value="4" />
           <entry key="project.open.time.30" value="1" />
-          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.31" value="2" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.53" value="1" />
           <entry key="project.open.time.54" value="1" />
           <entry key="project.open.time.56" value="1" />
+          <entry key="project.open.time.58" value="1" />
           <entry key="project.open.time.62" value="1" />
-          <entry key="project.opened" value="63" />
+          <entry key="project.opened" value="96" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="1409" />
-          <entry key="html" value="1788" />
-          <entry key="js" value="2" />
+          <entry key="css" value="1961" />
+          <entry key="html" value="2612" />
+          <entry key="js" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="1409" />
-          <entry key="HTML" value="1788" />
-          <entry key="JavaScript" value="2" />
+          <entry key="CSS" value="1961" />
+          <entry key="HTML" value="2612" />
+          <entry key="JavaScript" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -114,14 +119,17 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.59042555">
+    <splitter split-orientation="horizontal" split-proportion="0.58789384">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="296">
-                  <caret line="384" selection-start-line="384" selection-end-line="384" />
+                <state relative-caret-position="330">
+                  <caret line="81" column="10" lean-forward="true" selection-start-line="81" selection-start-column="10" selection-end-line="81" selection-end-column="10" />
+                  <folding>
+                    <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -129,8 +137,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/buttonup.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="19" selection-start-line="19" selection-end-line="19" />
+                <state relative-caret-position="330">
+                  <caret line="22" selection-start-line="22" selection-end-line="22" />
                 </state>
               </provider>
             </entry>
@@ -142,8 +150,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="390">
-                  <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+                <state relative-caret-position="483">
+                  <caret line="385" lean-forward="true" selection-start-line="385" selection-end-line="385" />
                 </state>
               </provider>
             </entry>
@@ -171,17 +179,44 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1306" />
-    <option name="y" value="23" />
+    <option name="x" value="1301" />
+    <option name="y" value="24" />
     <option name="width" value="1254" />
     <option name="height" value="844" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Invalid elementsCSS</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CssInvalidPropertyValue</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -198,15 +233,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540790414248" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540900296998" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -318,17 +352,51 @@
       <workItem from="1540788609995" duration="1051000" />
       <workItem from="1540790472666" duration="1801000" />
       <workItem from="1540792326190" duration="1143000" />
-      <workItem from="1540867306379" duration="494000" />
+      <workItem from="1540867306379" duration="1678000" />
+      <workItem from="1540869039325" duration="1764000" />
+      <workItem from="1540870854708" duration="766000" />
+      <workItem from="1540872717022" duration="1326000" />
+      <workItem from="1540874549788" duration="1757000" />
+      <workItem from="1540876355983" duration="1765000" />
+      <workItem from="1540878168847" duration="1767000" />
+      <workItem from="1540880000582" duration="938000" />
+      <workItem from="1540881804606" duration="1770000" />
+      <workItem from="1540883636985" duration="752000" />
+      <workItem from="1540885452269" duration="1766000" />
+      <workItem from="1540887272617" duration="1315000" />
+      <workItem from="1540889088498" duration="1491000" />
+      <workItem from="1540890901044" duration="1781000" />
+      <workItem from="1540892812859" duration="1764000" />
+      <workItem from="1540894647023" duration="1802000" />
+      <workItem from="1540896716913" duration="1766000" />
+      <workItem from="1540898540274" duration="1762000" />
+      <workItem from="1540900350548" duration="395000" />
+      <workItem from="1540954041781" duration="1682000" />
+      <workItem from="1540955773531" duration="1226000" />
+      <workItem from="1540957603182" duration="1608000" />
+      <workItem from="1540959435917" duration="1766000" />
+      <workItem from="1540961245744" duration="1615000" />
+      <workItem from="1540963291519" duration="1764000" />
+      <workItem from="1540965111329" duration="1764000" />
+      <workItem from="1540966929502" duration="1602000" />
+      <workItem from="1540968743638" duration="907000" />
+      <workItem from="1540970563212" duration="1765000" />
+      <workItem from="1540972382378" duration="1413000" />
+      <workItem from="1540974222508" duration="2230000" />
+      <workItem from="1540977083690" duration="599000" />
+      <workItem from="1540978847020" duration="1617000" />
+      <workItem from="1540980660352" duration="1108000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121289000" />
+    <option name="totallyTimeSpent" value="171817000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1306" y="23" width="1254" height="844" extended-state="0" />
+    <frame x="1301" y="24" width="1254" height="844" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15671642" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1973466" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -343,7 +411,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32587412" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32496512" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -354,7 +422,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="8" side_tool="true" weight="0.3291874" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,24 +440,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="384" selection-start-line="384" selection-end-line="384" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/buttonup.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+        <state relative-caret-position="483">
+          <caret line="385" lean-forward="true" selection-start-line="385" selection-end-line="385" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="81" column="10" lean-forward="true" selection-start-line="81" selection-start-column="10" selection-end-line="81" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
