@@ -12,13 +12,14 @@ header {
 
 
 .navbarCustom {
-    margin-bottom: 0px;
+    margin-top: 12px;
+    margin-right: -52px;
 }
+
 
 .navbar-brand {
     height: auto;
-    padding: 0px 15px;
-
+    padding: 0px 0px;
 }
 .navbar-inst {
     font-family: georgia, serif;
@@ -102,15 +103,18 @@ padding-top: 8px;
 .centr-title h2 {
     text-align: center;
     color: #4f565f;
-    padding-top: 0px;
+    padding-top: 7px;
     font-size: 50px;
     font-family: "Tahoma";
+    margin-top: 0px;
 }
 .centrTitleInfo h3 {
     font-family: "Tahoma";
     color: #4f565f;
     padding-left: 47px;
+    margin-top: 0px;
     line-height: 37px;
+
 }
 .centrTitleInfoBlue {
       color: #264796;
@@ -147,14 +151,14 @@ a.buttons:active
     min-height: 710px;
     position: relative;
 }
-.whoNeedThat-section ul {
+.whoNeedThat ul {
     list-style-image: url("images/galka.png");
 }
 .whoNeedThat-section li {
     padding-top: 13px;
 }
 .whoNeedThat {
-    padding-top: 25px;
+    padding-top: 40px;
 }
 .whoNeedThat-section .img-responsive {
     height: auto;
@@ -167,7 +171,7 @@ a.buttons:active
     text-align: right;
 }
 .whomList {
-    font-size: 20px;
+    font-size: 16px;
     color: #4f565f;
 }
 .whoThat {
@@ -176,11 +180,14 @@ a.buttons:active
     color: #4f565f;
     margin-top: 20px;
 }
-.whoList ul {
-    list-style-image: url("images/galka2.png");
+.whoList ul li {
+background: url(images/galka2.png) no-repeat -4px 11px;
+padding-left: 20px;
+list-style-type: none;
 }
+
 .whoList li {
-    font-size: 20px;
+    font-size: 16px;
     color: #4f565f;
 }
 
@@ -215,19 +222,18 @@ a.buttons:active
     font-size: 26px;
     color: #4f565f;
     font-family: "Tahoma";
-    margin-top: 24px;
+    margin-top: 40px;
 }
 .redText {
     padding-top: 0px;
+    color: #b14f7c;
 }
 .redText h2 {
     font-size: 60px;
     font-weight: bold;
-    color: #b14f7c;
 }
 .redText b {
-    font-size: 95px;
-    color: #b14f7c;
+    font-size: 80px;
     font-weight: bolder;
 }
 .right {
@@ -283,25 +289,25 @@ a.buttons:active
     min-height: 910px;
     position: relative;
 
-}
 
-.effect {
-    text-align: center;
 }
 
 .effectTop {
     font-size: 40px;
     color: #264796;
+    margin-top: 40px;
 }
 .effect {
+    text-align: center;
     font-size: 40px;
     color: #b14f7c;
     font-weight: bold;
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 28px;
 }
 .effectText {
     line-height: 22px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 
@@ -365,30 +371,34 @@ a.buttons:active
 
 .contact-section {
     background-color: #fdfdfd;
+    background-image: url("images/contact1.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
-    min-height: 400px;
+    min-height: 485px;
     position: relative;
 }
 .contactSectionMiddle {
     text-align: center;
     color: #4f565f;
+    margin-top: 40px;
+    margin-bottom: 25px;
 
 }
 
-.panel {
+
+.panel-castom {
+    background-color: rgba(0, 0, 0, 0);
     border: #fdfdfd;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0);
+    margin-top: 6px;
 }
-.panel-group {
 
-
-}
 .panel-title {
     font-size: 18px;
     color: #4f565f;
-    margin-left: 185px;
+    text-align: right;
 }
 
 
@@ -418,7 +428,7 @@ a.buttons:active
     top: 4px;
 }
 .map {
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 
